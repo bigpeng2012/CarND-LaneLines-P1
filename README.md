@@ -39,6 +39,18 @@ The Project
 
 **Step 1:** Set up the [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) if you haven't already.
 
+If you're using `bash` or Docker Quickstart Terminal:
+
+navigate to the directory of a project:
+
+```bash
+$ cd ~/src/CarND-LaneLines-P1
+```
+
+```sh
+docker run -it --rm --entrypoint "/run.sh" -p 8888:8888 -v `pwd`:/src udacity/carnd-term1-starter-kit
+```
+
 **Step 2:** Open the code in a Jupyter Notebook
 
 You will complete the project code in a Jupyter notebook.  If you are unfamiliar with Jupyter Notebooks, check out [Udacity's free course on Anaconda and Jupyter Notebooks](https://classroom.udacity.com/courses/ud1111) to get started.
